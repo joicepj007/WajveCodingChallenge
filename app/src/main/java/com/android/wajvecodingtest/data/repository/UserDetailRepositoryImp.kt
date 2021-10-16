@@ -13,7 +13,7 @@ class UserDetailRepositoryImp(
     private val retrofitService: RetrofitService
 ) :
     UserDetailRepository {
-    override suspend fun getUserDetail(): List<UserDetails> {
-        return retrofitService.getUserDetail()
+    override suspend fun getUserDetail(uid: String?): List<UserDetails> {
+        return retrofitService.getUserDetail(uid)
     }
 }
