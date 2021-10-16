@@ -7,5 +7,5 @@ import com.android.wajvecodingtest.domain.UserDetails
  * */
 interface UserDetailRepository {
 
-    suspend fun getUserDetail(uid:String?): List<UserDetails>
+    suspend fun getUserDetail(uid:String?): UserDetails
 }

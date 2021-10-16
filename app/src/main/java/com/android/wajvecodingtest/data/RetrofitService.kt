@@ -11,5 +11,5 @@ interface RetrofitService {
     suspend fun getLinkedinUserList(): List<LinkedinUsers>
 
     @GET("dev/random")
-    suspend fun getUserDetail(@Query("uid") uid: String?): List<UserDetails>
+    suspend fun getUserDetail(@Query("uid") uid: String?): UserDetails
 }

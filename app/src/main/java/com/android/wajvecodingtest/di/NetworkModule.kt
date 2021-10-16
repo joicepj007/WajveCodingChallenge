@@ -5,6 +5,10 @@ import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkInfo
 import com.android.wajvecodingtest.data.RetrofitService
+import com.android.wajvecodingtest.data.repository.LinkedinUsersRepositoryImp
+import com.android.wajvecodingtest.data.repository.UserDetailRepositoryImp
+import com.android.wajvecodingtest.domain.repository.LinkedinUserRepository
+import com.android.wajvecodingtest.domain.repository.UserDetailRepository
 import com.android.wajvecodingtest.util.Constants
 import com.google.gson.Gson
 import dagger.Module
@@ -92,5 +96,20 @@ class NetworkModule {
     @Provides
     fun provideService(retrofit: Retrofit): RetrofitService {
         return retrofit.create(RetrofitService::class.java)
+    }
+
+    @Singleton
+    @Provides
+    fun provideLinkedinUserListRepository(
+        retrofitService: RetrofitService
+    ): LinkedinUserRepository {
+        return LinkedinUsersRepositoryImp(retrofitService)
+    }
+    @Singleton
+    @Provides
+    fun provideUserDetailRepository(
+        retrofitService: RetrofitService
+    ): UserDetailRepository {
+        return UserDetailRepositoryImp(retrofitService)
     }
 }
