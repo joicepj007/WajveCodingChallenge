@@ -6,7 +6,7 @@ import retrofit2.Response
 import javax.inject.Inject
 
 /**
- * An interactor that calls the actual implementation of [CarTypesViewModel](which is injected by DI)
+ * An interactor that calls the actual implementation of [UserDetailViewModel](which is injected by DI)
  * it handles the response that returns data &
  * contains a list of actions, event steps
  */

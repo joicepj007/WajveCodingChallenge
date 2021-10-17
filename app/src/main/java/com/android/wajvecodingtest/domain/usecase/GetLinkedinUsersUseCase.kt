@@ -6,7 +6,7 @@ import com.android.wajvecodingtest.domain.repository.LinkedinUserRepository
 import javax.inject.Inject
 
 /**
- * An interactor that calls the actual implementation of [EventListViewModel](which is injected by DI)
+ * An interactor that calls the actual implementation of [UsersListViewModel](which is injected by DI)
  * it handles the response that returns data &
  * contains a list of actions, event steps
  */
