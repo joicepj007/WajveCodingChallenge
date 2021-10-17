@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="material_button_width">160dp</dimen>
+    <dimen name="layout_card_img_hieght">160dp</dimen>
+    <dimen name="layout_img_width">120dp</dimen>
+    <dimen name="marginr_10">10dp</dimen>
+    <dimen name="marginr_3">3dp</dimen>
+    <dimen name="marginr_4">4dp</dimen>
+    <dimen name="marginr_6">6dp</dimen>
+    <dimen name="marginr_8">8dp</dimen>
+    <dimen name="marginr_16sp">16sp</dimen>
+    <dimen name="marginr_18sp">18sp</dimen>
+    <dimen name="marginr_20sp">20sp</dimen>
+    <dimen name="marginr_20">20dp</dimen>
+    <dimen name="marginr_30">30dp</dimen>
+    <dimen name="marginr_50">50dp</dimen>
+    <dimen name="marginr_70">70dp</dimen>
+    <dimen name="marginr_15">15dp</dimen>
+
+</resources>

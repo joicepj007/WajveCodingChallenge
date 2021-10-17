@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">WajveCodingTest</string>
+    <string name="app_name">WajveChallenge</string>
+    <string name="no_network_connection">No Network Connection</string>
+    <string name="str_users">Linkedin Users</string>
+    <string name="str_retry">Retry</string>
+    <string name="str_description">Description :</string>
+    <string name="str_location">Location :</string>
+    <string name="str_no_internet">No Internet Connection</string>
 </resources>
