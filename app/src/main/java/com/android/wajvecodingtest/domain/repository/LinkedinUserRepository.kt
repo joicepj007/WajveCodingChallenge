@@ -1,6 +1,7 @@
 package com.android.wajvecodingtest.domain.repository
 
-import com.android.wajvecodingtest.domain.LinkedinUsers
+import com.android.wajvecodingtest.domain.entity.LinkedinUsers
+import retrofit2.Response
 
 /**
  * To make an interaction between [LinkedinUserRepository] & [GetLinkedinUserUseCase]

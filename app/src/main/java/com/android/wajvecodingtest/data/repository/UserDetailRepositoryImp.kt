@@ -1,8 +1,9 @@
 package com.android.wajvecodingtest.data.repository
 
 import com.android.wajvecodingtest.data.RetrofitService
-import com.android.wajvecodingtest.domain.UserDetails
+import com.android.wajvecodingtest.domain.entity.UserDetails
 import com.android.wajvecodingtest.domain.repository.UserDetailRepository
+import retrofit2.Response
 
 /**
  * This repository is responsible for

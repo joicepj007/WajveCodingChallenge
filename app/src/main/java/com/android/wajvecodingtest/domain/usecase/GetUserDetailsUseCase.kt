@@ -1,7 +1,8 @@
 package com.android.wajvecodingtest.domain.usecase
 
-import com.android.wajvecodingtest.domain.UserDetails
+import com.android.wajvecodingtest.domain.entity.UserDetails
 import com.android.wajvecodingtest.domain.repository.UserDetailRepository
+import retrofit2.Response
 import javax.inject.Inject
 
 /**
@@ -17,7 +18,7 @@ class GetUserDetailsUseCase @Inject constructor(private val repository: UserDeta
         uid = key
     }
 
-    suspend fun getUserDetailData(uid: String?): UserDetails {
+    suspend fun getUserDetailData(): UserDetails {
         return repository.getUserDetail(uid)
     }
 }

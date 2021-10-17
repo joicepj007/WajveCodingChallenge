@@ -1,7 +1,7 @@
 package com.android.wajvecodingtest.domain.usecase
 
 
-import com.android.wajvecodingtest.domain.LinkedinUsers
+import com.android.wajvecodingtest.domain.entity.LinkedinUsers
 import com.android.wajvecodingtest.domain.repository.LinkedinUserRepository
 import javax.inject.Inject
 

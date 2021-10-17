@@ -1,4 +1,4 @@
-package com.android.wajvecodingtest.domain
+package com.android.wajvecodingtest.domain.entity
 
 data class LinkedinUsers(
     var uid: String,

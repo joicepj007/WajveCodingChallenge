@@ -64,7 +64,7 @@ class NetworkModule {
                  * The 'max-age' attribute is responsible for this behavior.
                  */
                 request = request.newBuilder() //make default to true till i figure out how to inject network status
-                    .header("Cache-Control", "public, max-age=" + 5).build()
+                    .addHeader("Authorization", "Bearer "+"XWRavjM@aRhYE8n@T!GQXx6uGw3*TbnbA6Nsyx-8p9RN.4EVW96FxJJmrRBbFo*s*VuacHroKHr").build()
                 chain.proceed(request)
             }
         return client.build()

@@ -1,7 +1,8 @@
 package com.android.wajvecodingtest.data
 
-import com.android.wajvecodingtest.domain.LinkedinUsers
-import com.android.wajvecodingtest.domain.UserDetails
+import com.android.wajvecodingtest.domain.entity.LinkedinUsers
+import com.android.wajvecodingtest.domain.entity.UserDetails
+import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
 
