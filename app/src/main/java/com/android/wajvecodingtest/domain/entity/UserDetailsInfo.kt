@@ -24,5 +24,7 @@ data class UserDetailsInfo(
     @SerializedName("location")
     var location: String,
     @SerializedName("image")
-    var image: String
+    var image: String,
+    @SerializedName("urls")
+    var urls: Urls,
 )

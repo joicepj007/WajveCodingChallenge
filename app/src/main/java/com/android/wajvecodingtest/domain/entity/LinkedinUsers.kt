@@ -1,6 +1,6 @@
 package com.android.wajvecodingtest.domain
 
 data class LinkedinUsers(
-    var id: String,
+    var uid: String,
     var info: Info?
 )
